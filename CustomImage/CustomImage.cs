@@ -9,8 +9,14 @@ namespace CustomImage
 	/// </summary>
 	public class CustomImage : Image
 	{
+		/// <summary>
+		/// 画像に設定するカラーのプロパティ
+		/// </summary>
+		public Color ImageColor { get; set; }
+
 		public CustomImage()
 		{
+			ImageColor = Color.Transparent;
 		}
 	}
 }

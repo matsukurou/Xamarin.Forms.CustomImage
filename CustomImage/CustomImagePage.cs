@@ -15,6 +15,7 @@ namespace CustomImage
 			var image = new CustomImage()
 			{
 				Source = FileImageSource.FromResource("CustomImage.github.png"),
+				ImageColor = Color.Blue,
 			};
 
 			// レイアウトを生成
